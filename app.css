@@ -53,3 +53,14 @@ ul, ol, menu {
     background-color: white;
 }
 
+/* BUTTON */
+
+.button {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button.blue {
+    background-color: #0060ff;
+    color: white;
+}
