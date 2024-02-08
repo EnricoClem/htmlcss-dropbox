@@ -26,3 +26,30 @@ ul, ol, menu {
 .container-sm {
     width: 1000px;
 }
+
+/* FLEX rules */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sp-between {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: 35px;
+}
+
+.centered {
+    align-items: center;
+}
+
+/* HEADER */
+
+.top-bar {
+    padding: 25px;
+    background-color: white;
+}
+
