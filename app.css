@@ -11,7 +11,7 @@ ul, ol, menu {
 
 /* CONATINER rules */
 
-[class^="containter"] {
+[class^="container"] {
     margin: 0 auto;
 }
 
@@ -63,4 +63,10 @@ ul, ol, menu {
 .button.blue {
     background-color: #0060ff;
     color: white;
+}
+
+/* DEBUG */
+
+.debug [class*="container"] {
+    border: 1px solid black;
 }
