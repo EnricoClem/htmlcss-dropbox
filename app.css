@@ -69,6 +69,10 @@ section {
     justify-content: space-between;
 }
 
+.gap-xl {
+    gap: 50px;
+}
+
 .gap {
     gap: 35px;
 }
@@ -151,6 +155,10 @@ h3 {
     color: white;
 }
 
+.adapt {
+    width: 100%;
+}
+
 
 
 /* FOOTER */
@@ -197,6 +205,8 @@ footer select {
     margin-top: auto;
 }
 
+
+
 /* MAIN plan cards */
 
 [class^="box-card"] {
@@ -205,6 +215,10 @@ footer select {
 
 .box-card-v {
     display: flex;
+}
+
+.box-card-o {
+
 }
 
 .card {
@@ -245,4 +259,10 @@ footer select {
 .fa-check {
     color: #0060ff;
     font-size: 15px;
+}
+
+.row.button.blue {
+    flex: auto;
+    justify-content: center;
+    margin-bottom: auto;
 }
