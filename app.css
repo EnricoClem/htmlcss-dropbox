@@ -85,6 +85,10 @@ section {
     justify-content: flex-start;
 }
 
+.stretch {
+    align-items: stretch;
+}
+
 
 
 /* TITLES rules */
@@ -195,8 +199,12 @@ footer select {
 
 /* MAIN plan cards */
 
-.box-card {
+[class^="box-card"] {
     padding: 25px;
+}
+
+.box-card-v {
+    display: flex;
 }
 
 .card {
