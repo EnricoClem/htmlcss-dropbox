@@ -22,7 +22,7 @@ main img {
 
 /* CONATINER and SECTION rules */
 
-.container-xl, .container, .container-sm {
+.container-xl, .container, .container-sm, .container-card {
     width: 100%;
     margin: 0 auto;
     padding: 0 50px;
@@ -34,6 +34,10 @@ main img {
 
 .container-sm {
     width: 1050px;
+}
+
+.container-card {
+    width: 1100px;
 }
 
 [class*="container"] + [class*="container"] {
@@ -103,6 +107,10 @@ h3 {
 
 .col-8 {
     width: calc(8 * 100% / 12);
+}
+
+.col-12 {
+    width: 100%;
 }
 
 
@@ -181,18 +189,16 @@ footer select {
     margin-top: auto;
 }
 
-
-
-
-
-
-
-/* DEBUG */
-
-.debug [class*="container"] {
-    border: 1px solid black;
+.box-card {
+    padding: 25px;
 }
 
-.debug section {
-    border: 1px solid red;
+.card {
+    border: 1px solid gray;
+    border-radius: 5px;
 }
+
+
+
+
+
