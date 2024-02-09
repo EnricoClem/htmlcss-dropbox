@@ -14,9 +14,13 @@ a {
     color: currentColor;
 }
 
+img {
+    width: 100%;
+}
 
 
-/* CONATINER rules */
+
+/* CONATINER and SECTION rules */
 
 .container-xl, .container, .container-sm {
     width: 100%;
@@ -35,6 +39,13 @@ a {
     margin-top: 50px;
 }
 
+section.lightblue {
+    background-color: #b4d0e7;
+}
+
+section {
+    padding: 75px 0;
+}
 
 
 
@@ -71,6 +82,10 @@ a {
 
 h3 {
     font-size: 25px;
+}
+
+h1 {
+    font-size: 85px;
 }
 
 
@@ -152,6 +167,16 @@ footer select {
     border-top: 1px solid gray;
     padding: 50px 0;
 }
+
+
+
+/* MAIN */
+
+.fa-arrow-down {
+    font-size: 43px;
+    margin-top: auto;
+}
+
 
 
 
