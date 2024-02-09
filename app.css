@@ -182,12 +182,14 @@ footer select {
 
 
 
-/* MAIN */
+/* MAIN hero */
 
 .fa-arrow-down {
     font-size: 43px;
     margin-top: auto;
 }
+
+/* MAIN plan cards */
 
 .box-card {
     padding: 25px;
@@ -195,10 +197,11 @@ footer select {
 
 .card {
     border: 1px solid gray;
-    border-radius: 5px;
 }
 
-
-
-
-
+.card-head {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    line-height: 38px;
+}
