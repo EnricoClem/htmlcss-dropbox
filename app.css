@@ -14,7 +14,7 @@ a {
     color: currentColor;
 }
 
-img {
+main img {
     width: 100%;
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 .gap {
-    gap: 40px;
+    gap: 35px;
 }
 
 .centered {
@@ -115,18 +115,17 @@ h1 {
 
 [class*="button"] {
     text-align: center;
-    padding: 0 15px;
 }
 
 .button {
-    line-height: 44px;
+    padding: 15px 20px;
 }
 
 .button-sm {
-    line-height: 35px;
+    padding: 10px 15px;
 }
 
-.button-sm.blue {
+.blue {
     background-color: #0060ff;
     color: white;
 }
@@ -187,4 +186,8 @@ footer select {
 
 .debug [class*="container"] {
     border: 1px solid black;
+}
+
+.debug section {
+    border: 1px solid red;
 }
