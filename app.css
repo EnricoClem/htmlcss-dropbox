@@ -25,14 +25,15 @@ main img {
 .container-xl, .container, .container-sm {
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .container {
-    width: 1200px;
+    width: 1250px;
 }
 
 .container-sm {
-    width: 1000px;
+    width: 1050px;
 }
 
 [class*="container"] + [class*="container"] {
@@ -80,12 +81,16 @@ section {
 
 /* TITLES rules */
 
-h3 {
-    font-size: 25px;
-}
-
 h1 {
     font-size: 85px;
+}
+
+h2 {
+    font-size: 43px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 
