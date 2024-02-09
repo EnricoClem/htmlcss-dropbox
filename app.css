@@ -73,6 +73,10 @@ section {
     gap: 35px;
 }
 
+.gap-sm {
+    gap: 20px;
+}
+
 .centered {
     align-items: center;
 }
@@ -204,4 +208,33 @@ footer select {
     display: flex;
     justify-content: center;
     line-height: 38px;
+}
+
+.card-content {
+    padding: 34px;
+    font-size: 12px;
+}
+
+.list-row {
+    display: flex;
+    gap: 5px;
+}
+
+.list-row i {
+    padding-top: 2px;
+}
+
+.text-link {
+    text-decoration: underline;
+    color: #0060ff;
+}
+
+.division-line {
+    border: 0.5px solid gray;
+    width: 40px;
+}
+
+.fa-check {
+    color: #0060ff;
+    font-size: 15px;
 }
