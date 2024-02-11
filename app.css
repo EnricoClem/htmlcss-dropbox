@@ -52,6 +52,10 @@ section {
     padding: 75px 0;
 }
 
+.frame {
+    padding: 50px;
+}
+
 
 
 /* FLEX rules */
@@ -117,6 +121,14 @@ h3 {
     width: calc(4 * 100% / 12);
 }
 
+.col-5 {
+    width: calc(5 * 100% / 12);
+}
+
+.col-7 {
+    width: calc(7 * 100% / 12);
+}
+
 .col-8 {
     width: calc(8 * 100% / 12);
 }
@@ -155,6 +167,13 @@ h3 {
     color: white;
 }
 
+.white {
+    border: 1px solid black;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    width: fit-content;
+}
+
 .adapt {
     width: 100%;
 }
@@ -170,10 +189,6 @@ footer {
 
 footer .container:first-child {
     padding: 100px 0;
-}
-
-footer .container:last-child {
-
 }
 
 footer .row.col {
@@ -215,10 +230,6 @@ footer select {
 
 .box-card-v {
     display: flex;
-}
-
-.box-card-o {
-
 }
 
 .card {
