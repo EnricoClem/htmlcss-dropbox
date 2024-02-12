@@ -268,6 +268,10 @@ footer select {
     font-size: 12px;
 }
 
+.card-info {
+    padding-bottom: 20px;
+}
+
 .list-row {
     display: flex;
     gap: 5px;
@@ -282,9 +286,13 @@ footer select {
     color: #0060ff;
 }
 
-.division-line {
-    border: 0.5px solid gray;
+.division-line::after {
+    content: '';
+    height: 1px;
     width: 40px;
+    background-color: gray;
+    display: block;
+    margin-top: 35px;
 }
 
 .fa-check {
