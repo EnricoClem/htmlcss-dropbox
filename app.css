@@ -375,3 +375,18 @@ footer select {
     border: 0.5px solid gray;
     width: 100px;
 }
+
+/* FAQ */
+
+.faq {
+    border-top: 0.5px solid gray;
+}
+
+.faq-question {
+    border-bottom: 0.5px solid gray;
+    padding: 40px 0;
+}
+
+.faq-question .fa-chevron-down {
+    padding: 0 40px;
+}
