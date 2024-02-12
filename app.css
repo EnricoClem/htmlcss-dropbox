@@ -238,6 +238,17 @@ footer select {
 .fa-arrow-down {
     font-size: 43px;
     margin-top: auto;
+    animation: bounce 3s ease infinite;
+}
+
+@keyframes bounce {
+    60% { transform:translateY(0%); }
+    70% { transform:translateY(-50%); }
+    82% { transform:translateY(0%); }
+    90% { transform:translateY(-25%); }
+    95% { transform:translateY(0%); }
+    98% { transform:translateY(-12%); }
+    100% { transform:translateY(0); }
 }
 
 
