@@ -325,6 +325,10 @@ footer select {
     padding: 10%;
 }
 
+[class^="square"] img {
+    filter: invert(1);
+}
+
 .square-designit {
     background-color: #a1d39b;
 }
