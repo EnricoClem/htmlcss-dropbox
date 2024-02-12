@@ -311,3 +311,28 @@ footer select {
     width: 100%;
     margin: 0 auto;
 }
+
+[class^="square"] {
+    width: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.square-designit {
+    background-color: #a1d39b;
+}
+
+.square-asu {
+    background-color: #61082b;
+}
+
+.square-uf {
+    background-color: #0193ce;
+}
+
+.square-topps {
+    background-color: #ff1c1c;
+}
