@@ -52,6 +52,10 @@ section {
     padding: 75px 0;
 }
 
+.section-square {
+    padding-bottom: 0;
+}
+
 .frame {
     padding: 50px;
 }
@@ -309,7 +313,7 @@ footer select {
 
 .container-square {
     width: 100%;
-    margin: 0 auto;
+    padding: 0;
 }
 
 [class^="square"] {
@@ -335,4 +339,20 @@ footer select {
 
 .square-topps {
     background-color: #ff1c1c;
+}
+
+.square-wbr {
+    background-color: #d5011f;
+}
+
+.square-hearst {
+    background-color: #b4d0e7;
+}
+
+.square-lonley {
+    background-color: #0c2581;
+}
+
+.square-clear {
+    background-color: #ffd831;
 }
