@@ -97,6 +97,14 @@ section {
     align-items: stretch;
 }
 
+.end {
+    justify-content: flex-end;
+}
+
+.start {
+    align-items: start;
+}
+
 
 
 /* TITLES rules */
@@ -123,6 +131,10 @@ h3 {
 
 .col-5 {
     width: calc(5 * 100% / 12);
+}
+
+.col-6 {
+    width: calc(6 * 100% / 12);
 }
 
 .col-7 {
@@ -168,10 +180,14 @@ h3 {
 }
 
 .white {
+    background-color: white;
+    width: fit-content;
+}
+
+.white.decored {
     border: 1px solid black;
     border-top: 1px solid lightgray;
     border-right: 1px solid lightgray;
-    width: fit-content;
 }
 
 .adapt {
@@ -276,4 +292,15 @@ footer select {
     flex: auto;
     justify-content: center;
     margin-bottom: auto;
+}
+
+/* MAIN CTA azienda */
+
+.col-5.row.end .button.white {
+    margin-top: 10px;
+    padding: 15px 60px;
+}
+
+.spaced {
+    padding: 50px 0;
 }
